@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @keyframes simpleEntrance{
+
+            0% {
+                opacity: 0%;
+                transform: translate3d(-2000px,500px,0) scale(10);
+            }
+
+            1% {
+                opacity: 100%
+            }
+
+            40% {
+                transform: translate3d(2000px,0px,0) scale(5);
+            }
+            50% {
+                transform: translate3d(-2000px,-100px,0) scale(3);
+            }
+            60% {
+                transform: translate3d(2000px,100px,0) scale(2);
+            }
+            70% {
+                transform: translate3d(-2000px,400px,0) scale(.1);
+            }
+
+            75% {
+                transform: translate3d(0px,0px,0) scale(.1);
+            }
+
+            80% {
+                transform:  rotate(360deg) translateX(150px) rotate(-360deg)
+            }
+
+        }
+
+        .simpleEntrance {
+            animation-timing-function: linear;
+            transform-origin: bottom center;
+            animation-name: simpleEntrance;
+            animation-duration: 10s;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <table width="100%">
+            <tr>
+                <td><a href="#about">vivek</a></td>
+                <td width="50%"></td>
+                <td><a href="#home">Home</a></td>
+                <td><a href="#about">About</a></td>
+                <td><a href="#education">Education</a></td>
+                <td><a href="#skill">Skill</a></td>
+                <td><a href="#project">Project</a></td>
+                <td><a href="#contact-me">Contact</a></td>
+
+            </tr>
+        </table>
+    </tr>
+    <tr>
+        <table width="100%" id="home" >
+            <td width="40%" height="700px"><span><h1>About</h1></span>
+                <h1>I' AM Vivek<br>
+                    A Web Developer<br></h1>
+                <p></p>
+                <button>Contact</button>
+            </td>
+            <td width="30%"></td>
+            <td><img class="simpleEntrance" src="2.jpg" width="60%"></td>
+        </table>
+        <table id="about">
+            <caption ><h1>About</h1></caption>
+            <td ><img src="3.jpg" width="30%"></td>
+            <td width="40%"><h1>Heading</h1>
+                <br>
+                WHO AM I?
+                <br>
+                <h1>I' AM Vivek A Web Developer</h1>
+                <hr>
+                <pre>Name:             Age:
+
+From:             Email:</pre>
+                <pre><button>Download Cv </button>    <a href="https://github.com/vivekchudasama-2004"><img src="github.png" width="20px" ></a> <a href="https://www.linkedin.com/in/vivek-chudasama-2367ba254/"><img src="linkedin.png" width="20px"></a></pre>
+            </td>
+        </table>
+    </tr>
+    <tr>
+        <table width="90%" align="center" border="1px" cellspacing="0" id="education">
+            <caption><h1>Qualification</h1></caption>
+            <caption><h4>Education</h4></caption>
+            <td>
+                <h1>Marwadi University</h1>
+                <h2>Btech-IT    2022-2026</h2>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, aliquam architecto aut
+                consequatur cupiditate doloremque eaque earum ex harum illo, laboriosam laborum laudantium pariatur
+                perferendis quidem voluptatum! Assumenda, excepturi.
+            </td>
+            <td>
+                <h1>New era School</h1>
+                <h2>5th to 12th std    2016-2022</h2>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, aliquam architecto aut
+                consequatur cupiditate doloremque eaque earum ex harum illo, laboriosam laborum laudantium pariatur
+                perferendis quidem voluptatum! Assumenda, excepturi.
+            </td>
+        </table>
+
+    </tr>
+    <br>
+    <br>
+    <tr>
+        <table width="90%" align="center" border="1px" cellspacing="0" id="achivement">
+            <caption><h4>Achivement</h4></caption>
+            <td><img src="less-than-symbol.png" width="20px"></td>
+            <td width="40%"></td>
+            <td width="50%"><img src="image.png" width="200px"></td>
+            <td><img src="greater-than-symbol.png" width="20px"></td>
+        </table>
+    </tr>
+    <br>
+    <br>
+    <tr>
+        <table align="center" width="90%" id="project">
+            <caption><h4>Project</h4></caption>
+            <td width="10%"></td>
+            <td width="30%" ><img src="image.png" width="200px">
+                <br>
+                Project 1
+            </td>
+            <td width="30%"><img src="image.png" width="200px">
+                <br>
+                Project 2
+            </td>
+            <td width="30%"><img src="image.png" width="200px">
+                <br>
+                Project 3
+            </td>
+        </table>
+    </tr>
+    <br>
+    <br>
+    <tr>
+        <table width="90%" align="center" id="skill">
+            <caption><h4>Technical proficiency</h4></caption>
+            <td width="45%">
+            <pre>forntend             Backend
+                <br>
+Tools                Soft Skills
+            </pre>
+            </td>
+            <td width="45%">
+                <pre><hr>
+                Skill
+                <hr>
+      Text
+      <img src="line.png" width="500px">
+      <hr>
+      Text
+      <img src="line.png" width="500px">
+      <hr>
+      <img src="line.png" width="500px">
+</pre>
+            </td>
+        </table>
+    </tr>
+    <br>
+    <tr>
+        <table width="90%" align="center"  id="contact-me">
+            <caption><h4>Get in Touch</h4></caption>
+            <caption><h1>Contact ME</h1></caption>
+            <tr>
+                <td width="50%">Call us<br>+911234567890</td>
+                <td><br><input type="text" placeholder="Name"/></td>
+                <td><br><input type="email" placeholder="Email"/></td>
+
+
+            </tr>
+            <tr>
+                <td>Email us<br>abc@gmail.com</td>
+                <td><br><input type="text" placeholder="Subject"/></td>
+
+            </tr>
+            <tr>
+                <td>Address<br>xyz, 13348</td>
+                <td><br><textarea>Message</textarea></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button>Submit</button>
+                </td>
+            </tr>
+        </table>
+    </tr>
+    <br>
+    <br>
+    <br>
+    <tr>
+        <table width="100%" align="center" id="footer">
+            <tr>
+                <td width="45%"></td>
+
+                <td><a href="https://www.linkedin.com/in/vivek-chudasama-2367ba254/"><img src="linkedin.png" width="20px">Linkdin</a> <a href="https://github.com/vivekchudasama-2004"><img src="github.png" width="20px" >Github</a></td>
+            </tr>
+            <tr>
+                <br>
+                <td width="45%"></td>
+                <td>&copy; 2024 VivekChudasama@</td>
+            </tr>
+        </table>
+    </tr>
+
+</table>
+</body>
+</html>
